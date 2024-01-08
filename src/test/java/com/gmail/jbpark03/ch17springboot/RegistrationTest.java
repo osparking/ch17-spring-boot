@@ -3,13 +3,10 @@ package com.gmail.jbpark03.ch17springboot;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ImportResource;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import com.gmail.jbpark03.ch17springboot.model.Passenger;
 import com.gmail.jbpark03.ch17springboot.regis.PassengerRegistrationEvent;

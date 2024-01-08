@@ -6,12 +6,14 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context.xsd">
-  <bean id="passenger" class="space.bum.spring.Passenger">
+  <bean id="passenger"
+    class="com.gmail.jbpark03.ch17springboot.model.Passenger">
     <constructor-arg name="name" value="김철수" />
     <property name="country" ref="country" />
     <property name="registered" value="false" />
   </bean>
-  <bean id="country" class="space.bum.spring.Country">
+  <bean id="country"
+    class="com.gmail.jbpark03.ch17springboot.model.Country">
     <constructor-arg name="name" value="대한민국" />
     <constructor-arg name="codeName" value="KR" />
   </bean>
